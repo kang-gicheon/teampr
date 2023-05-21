@@ -1,0 +1,104 @@
+package dto;
+
+public class ResortDto {
+
+	private String name;
+	private String info;
+	private String address;
+	private String admin;
+	private String grade;
+	private int price;
+	private int averageNumber;
+	
+	
+	protected String getName() {
+		return name;
+	}
+
+
+
+	protected void setName(String name) {
+		this.name = name;
+	}
+
+
+
+	protected String getInfo() {
+		return info;
+	}
+
+
+
+	protected void setInfo(String info) {
+		this.info = info;
+	}
+
+
+
+	protected String getAddress() {
+		return address;
+	}
+
+
+
+	protected void setAddress(String address) {
+		this.address = address;
+	}
+
+
+
+	protected String getAdmin() {
+		return admin;
+	}
+
+
+
+	protected void setAdmin(String admin) {
+		this.admin = admin;
+	}
+
+
+
+	protected String getGrade() {
+		return grade;
+	}
+
+
+
+	protected void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+
+
+	protected int getPrice() {
+		return price;
+	}
+
+
+
+	protected void setPrice(int price) {
+		this.price = price;
+	}
+
+
+
+	protected int getAverageNumber() {
+		return averageNumber;
+	}
+
+
+
+	protected void setAverageNumber(int averageNumber) {
+		this.averageNumber = averageNumber;
+	}
+
+
+
+	public ResortDto() {
+	
+	}
+	
+	
+	
+}
